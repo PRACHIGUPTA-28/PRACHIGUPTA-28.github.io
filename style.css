@@ -1,0 +1,42 @@
+body {
+    background-color: wheat;
+    color: sienna;
+    font-family: "Book antiqua", sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+.nav-links {
+    display: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: saddlebrown;
+}
+.intro{
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.intro-title{
+    color: saddlebrown;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: Georgia, serif ;
+}
+
+.intro-text {
+    font-size: 22px;
+}
